@@ -347,6 +347,5 @@ Kaynağı ve filtreleri hallettikten sonra şimdi NetFlow dökebilir ya da istat
 | :-------------: |
 | ![alt text](http://nfsen.sourceforge.net/ProcessingOutput.png "Logo Title Text 1")       |
 
-Önemli Not:
-Ağınız ile ilgili tüm trafiğin bilgilerini barındıran Netflow kayıtlarının tutulması ve analiz edilmesi ağ yönetimi için çok önemlidir. Bununla birlikte bu kayıtlar kurum çalışanlarınızın kişisel bilgilerini de içerdiğinden ağ yöneticileri dışında kişilerin erişimine izin verilmemelidir. Bunun için en pratik çözüm olarak
-.htaccess dosyası yardımı ile web sunucusuna erişimi kullanıcı tabanlı yapmak sayılabilir. Ayrıca sunucuya ssh erişiminin de çok dikkatli yapılması gerekmektedir.
+__`Önemli Not:`_
+Ağınız ile ilgili tüm trafiğin bilgilerini barındıran Netflow kayıtlarının tutulması ve analiz edilmesi ağ yönetimi için çok önemlidir. Bununla birlikte bu kayıtlar kurum çalışanlarınızın kişisel bilgilerini de içerdiğinden ağ yöneticileri dışında kişilerin erişimine izin verilmemelidir. Bunun için en pratik çözüm olarak _.htaccess_ dosyası yardımı ile web sunucusuna erişimi kullanıcı tabanlı yapmak sayılabilir. Ayrıca sunucuya ssh erişiminin de çok dikkatli yapılması gerekmektedir.
