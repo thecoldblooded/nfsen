@@ -249,6 +249,10 @@ $vi /etc/conf.d/local.start
 
 Artık Pardus kurduğumuz makinada Firefox ya da benzeri uygulamalar ile: http://localhost/nfsen/nfsen.php adresini görüntülediğimizde NfSen arayüzü ile karşılaşacağız.
 
+| NFSen Genel Görünüm  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/overview.png "Logo Title Text 1")       |
+
 Detail bölümünden ilgilendiğimiz zaman aralığını seçerek (grafik üstünde) ilgili kayıtları ayıklayabiliriz. Bunun için grafiğin altında yer alan _Processing_ bölümünü kullanmanı gerekiyor. Source bölümde ayarlar dosyasında UDP portlarına göre ayırdığımız kaynaklar listeleniyor.
 
 Buradan bir kayna seçtikten sonra Filter bölümde özel olarak ilgilendiğimiz bir eleman için (Ip adresi, arayüz, AS, Port v.s) filtreleme yapabiliriz. Bu alanının kullanım şekli Nfdump datasının kullanım şekli ile aynı. (http://nfdump.sourceforge.net/) adresinden Filter bölümünde detaylara ulaşabilirsiniz. Bazı alanlar için filtreleme şeklini aşağıda     bulabilirsiniz.
