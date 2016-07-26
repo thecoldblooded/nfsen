@@ -255,7 +255,16 @@ Artık Pardus kurduğumuz makinada Firefox ya da benzeri uygulamalar ile: http:/
 
 Detail bölümünden ilgilendiğimiz zaman aralığını seçerek (grafik üstünde) ilgili kayıtları ayıklayabiliriz. Bunun için grafiğin altında yer alan _Processing_ bölümünü kullanmanı gerekiyor. Source bölümde ayarlar dosyasında UDP portlarına göre ayırdığımız kaynaklar listeleniyor.
 
-Buradan bir kayna seçtikten sonra Filter bölümde özel olarak ilgilendiğimiz bir eleman için (Ip adresi, arayüz, AS, Port v.s) filtreleme yapabiliriz. Bu alanının kullanım şekli Nfdump datasının kullanım şekli ile aynı. (http://nfdump.sourceforge.net/) adresinden Filter bölümünde detaylara ulaşabilirsiniz. Bazı alanlar için filtreleme şeklini aşağıda     bulabilirsiniz.
+| NFSen Process  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/processing-1.png "Logo Title Text 1")       |
+| ![alt text](http://nfsen.sourceforge.net/ProcessingControls.png "Logo Title Text 1")       |
+
+Buradan bir kayna seçtikten sonra Filter bölümde özel olarak ilgilendiğimiz bir eleman için (Ip adresi, arayüz, AS, Port v.s) filtreleme yapabiliriz. Bu alanının kullanım şekli Nfdump datasının kullanım şekli ile aynı. (http://nfdump.sourceforge.net/) adresinden Filter bölümünde detaylara ulaşabilirsiniz. Bazı alanlar için filtreleme şeklini aşağıda bulabilirsiniz.
+
+| NFSen Filter  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/DefaultFilter.png "Logo Title Text 1")       |
 
 ##### 1-Filtreler:
 Başlıkların altında verilen komutları teker teker ya da bir kaçını birden Filters bölümüne yazarak ilgili başlığa göre filtreleme yapabilirsiniz.
@@ -293,11 +302,9 @@ ___
 ___
 __packets__ [operator] __sayı__ [scale] (scale değeri __k,m,g__ olabilir. Kilo, mega ve giga için)
 
-
 ###### Byte değerine göre
 ___
 __bytes__ [operator] __sayı__ [scale]
-
 
 ###### Saniyelik Paket (Packets per second):
 ___
@@ -323,6 +330,22 @@ ___
 
 Kaynağı ve filtreleri hallettikten sonra şimdi NetFlow dökebilir ya da istatistiğini alabilirsiniz. List seçeneğinde dökeceğiniz flowların sayısını ve formatını belirleyebiliyorken, Stat seçeneğinde kaynak IP, hedef Ip, Kapı, AS numarası v.s. için çıkacak istatistikleri byte,paket,pps v.s. için sıralatabilirsiniz.
 
+| NFSen Netflow Processing  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/ProcessingControls.png "Logo Title Text 1")       |
+
+| NFSen Statistics  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/ExpandStat.png "Logo Title Text 1")       |
+| ![alt text](http://nfsen.sourceforge.net/DisabledSources.png "Logo Title Text 1")       |
+
+| NFSen List  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/custom-format.png "Logo Title Text 1")       |
+
+| NFSen Stat  |
+| :-------------: |
+| ![alt text](http://nfsen.sourceforge.net/ProcessingOutput.png "Logo Title Text 1")       |
 
 Önemli Not:
 Ağınız ile ilgili tüm trafiğin bilgilerini barındıran Netflow kayıtlarının tutulması ve analiz edilmesi ağ yönetimi için çok önemlidir. Bununla birlikte bu kayıtlar kurum çalışanlarınızın kişisel bilgilerini de içerdiğinden ağ yöneticileri dışında kişilerin erişimine izin verilmemelidir. Bunun için en pratik çözüm olarak
