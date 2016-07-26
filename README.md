@@ -3,7 +3,7 @@
 >Umut DOĞAN 
 udogan@etu.edu.tr TOBB ETÜ Üniversitesi
  
-###### Bu belgede ağ yönlendirici cihazlarının oluşturduğu ve üzerinden geçen trafiğe ait izleri barındıran NetFlow kayıtlarının depolanması ve incelenebilmesi için yapılması gerekenleri adım adım anlatacağım. Bu kayıtların tutulması ağımızdan dışarı çıkan trafiğin kaynak ve hedeflerinin belirlenmesi konusundaki hukuki sorumlulukları karşılama da yardımcı olacaktır. Ayrıca kurulumunu anlatacağım NfSen ile de bu kayıtların detaylı analizini bir arayüz yardımıyla yaparak ağ trafiğinizi inceleyebilirsiniz.
+###### Ağ yönlendirici cihazlarının oluşturduğu ve üzerinden geçen trafiğe ait izleri barındıran NetFlow kayıtlarının depolanması ve incelenebilmesi için yapılması gerekenleri adım adım anlatacağım. Bu kayıtların tutulması ağımızdan dışarı çıkan trafiğin kaynak ve hedeflerinin belirlenmesi konusundaki hukuki sorumlulukları karşılamada yardımcı olacaktır. Ayrıca kurulumunu anlatacağım NfSen ile de bu kayıtların detaylı analizini bir arayüz yardımıyla yaparak ağ trafiğinizi inceleyebilirsiniz.
 
 ### Giriş
 ___
@@ -48,8 +48,6 @@ ftp://ftp.pardus.org.tr/pub/pardus/kurulan/2007.1 adresinden edineceğiniz kayna
 Sorun yaşamanız durumunda http://www.pardus.org.tr/belgeler/kurulum_nasil.html adresindeki belgeye başvurabilirsiniz.
 
 Pardus Kurumsal 5 sürümünü www.pardus.org.tr adresinden temin edebilirsiniz. DVD oluşturmak için K3b, Brasero, USB oluşturmak için Unetbootin, ISO to USB uygulamalarını kullanabilirsiniz. Bu uygulamalar hakkında bilgi için http://www.pardus.org.tr/belgeler adresindeki Pardus İşletim Sistemi kitabından yardım alabilirsiniz. Kitap'ta Uygulamalar ve Tanıtımları altında Disk Yazma Araçları başlığında bu konuya değinilmiştir.
- 
-
 
 | Başlamak için kurulum ortamını(DVD-USB) bilgisayarınıza yerleştiriniz. Ardından F2-F8-F12 veya Delete tuşlarından biri ile BİOS ayarlarına girerek ( bios ayarlarına giriş tuşu farklılık gösterebilir ) açılış seçeneklerinden yerleştirdiğiniz DVD ya da USB disk'i ilk sıraya getirerek kaydedip çıkınız. |
 | :-------------: |
